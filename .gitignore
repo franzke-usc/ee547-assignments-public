@@ -1,0 +1,19 @@
+# NODE
+node_modules/
+yarn-error.log
+npm-error.log
+
+# IDE Files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# BYTECODE / CACHE
+__pycache__/
+.pytest_cache/
+
+# AUTOGRADE
+build/
+report.json

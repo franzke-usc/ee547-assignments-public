@@ -1,6 +1,6 @@
 # Homework 1, Problem 1
 
-### Setup
+## Setup
 
 Add `hw1p1.py` file in this directory.
 
@@ -24,8 +24,7 @@ apt-get install -y \
   libcap-dev
 ```
 
-
-### Testing
+## Testing
 
 ```bash
 ./driver.sh

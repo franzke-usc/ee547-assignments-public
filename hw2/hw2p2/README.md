@@ -1,8 +1,8 @@
 # Homework 2, Problem 2
 
-### Setup
+## Setup
 
-Add `hw2p2.py` file in this directory.
+Add `hw2p2.js` file in this directory.
 
 ```bash
 # remove --rm to persist container
@@ -20,13 +20,13 @@ Install dependencies
 ```bash
 apt-get update
 apt-get install -y \
-  jq \
-  libcap-dev
+  jq
 ```
 
-
-### Testing
+## Testing
 
 ```bash
+CLIENT_ID='REPLACE_ME' \
+CLIENT_SECRET='REPLACE_ME' \
 ./driver.sh
 ```

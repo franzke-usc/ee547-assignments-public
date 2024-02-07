@@ -1,6 +1,6 @@
 # Homework 1, Problem 3
 
-### Setup
+## Setup
 
 Add `hw1p3.csv` file in this directory.
 
@@ -24,8 +24,7 @@ apt-get install -y \
   libcap-dev
 ```
 
-
-### Testing
+## Testing
 
 ```bash
 ./driver.sh

@@ -1,6 +1,6 @@
 # Homework 1, Problem 2
 
-### Setup
+## Setup
 
 Add `hw1p2.py` file in this directory.
 
@@ -23,8 +23,7 @@ apt-get install -y \
   jq
 ```
 
-
-### Testing
+## Testing
 
 ```bash
 ./driver.sh

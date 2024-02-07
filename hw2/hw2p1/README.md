@@ -1,8 +1,8 @@
 # Homework 2, Problem 1
 
-### Setup
+## Setup
 
-Add `hw2p1.py` file in this directory.
+Add `hw2p1.js` file in this directory.
 
 ```bash
 # remove --rm to persist container
@@ -20,12 +20,10 @@ Install dependencies
 ```bash
 apt-get update
 apt-get install -y \
-  jq \
-  libcap-dev
+  jq
 ```
 
-
-### Testing
+## Testing
 
 ```bash
 ./driver.sh

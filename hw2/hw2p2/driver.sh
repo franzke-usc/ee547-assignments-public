@@ -14,7 +14,7 @@ status=$?
 end=`date +%s`
 
 echo "Runtime: $((end-start))"
-[ -f $OUTPUT ] && cat $OUTPUT
+#[ -f $OUTPUT ] && cat $OUTPUT
 
 # check status
 if [ ${status} -ne 0 ]; then

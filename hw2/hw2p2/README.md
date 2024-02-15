@@ -26,7 +26,8 @@ apt-get install -y \
 ## Testing
 
 ```bash
+npm install
 CLIENT_ID='REPLACE_ME' \
 CLIENT_SECRET='REPLACE_ME' \
-./driver.sh
+npm test
 ```

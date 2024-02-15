@@ -27,5 +27,6 @@ apt-get install -y \
 ## Testing
 
 ```bash
-./driver.sh
+pip3 install -r requirements.txt
+pytest -rA
 ```

@@ -26,5 +26,6 @@ apt-get install -y \
 ## Testing
 
 ```bash
-./driver.sh
+npm install
+npm test
 ```

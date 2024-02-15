@@ -15,16 +15,9 @@ docker run -it \
   /bin/bash
 ```
 
-Install dependencies
-
-```bash
-apt-get update
-apt-get install -y \
-  jq
-```
-
 ## Testing
 
 ```bash
-./driver.sh
+npm install
+npm test
 ```

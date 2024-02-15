@@ -8,24 +8,16 @@ Add `hw1p3.csv` file in this directory.
 # remove --rm to persist container
 docker run -it \
   --rm \
-  --name ee547-hw1p2-test \
+  --name ee547-hw1p3-test \
   -v "$(pwd)":/usr/src/app/ \
   -w /usr/src/app \
   python:3 \
   /bin/bash
 ```
 
-Install dependencies
-
-```bash
-apt-get update
-apt-get install -y \
-  jq \
-  libcap-dev
-```
-
 ## Testing
 
 ```bash
-./driver.sh
+pip3 install -r requirements.txt
+pytest -rA
 ```
